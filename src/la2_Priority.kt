@@ -7,7 +7,7 @@ fun main(args:Array<String>){
     var n3:Int = 5
     var sum:Int?
 
-    sum = n1 / n2 * n3 - 3 //priority rule is (),^(power),*,/,+,-,=
+    sum = (n1 / n2) * n3 - 3 //priority rule is (),^(power),*,/,+,-,=
 
     print("Sum is  :$sum")
 
