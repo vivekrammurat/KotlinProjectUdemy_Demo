@@ -1,11 +1,14 @@
 
 
 fun main(args:Array<String>){
-   var x = 10
-   var y = 20
-   var temp = x
-    x = y
-    y = temp
+    var x:Int = readLine()!!.toInt()
+    var y:Int = readLine()!!.toInt()
+
+  // var temp = x
+  y = x + y
+  x = y - x
+  y = y - x
+
     println(x)//20
     print(y)//10
 
